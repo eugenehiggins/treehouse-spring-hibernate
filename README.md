@@ -16,3 +16,8 @@ What this app does:
 What this app does **NOT** do:
 
 - Implement user authentication
+
+## starting the H2 database
+```bash
+java -cp h2-1.4.190.jar org.h2.tools.Server
+```
